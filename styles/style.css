@@ -112,6 +112,7 @@ body {
 
 .burger-block {
     position: relative;
+    display: none;
 }
 
 .head-block__burger-checkbox {
@@ -129,7 +130,6 @@ body {
 }
 
 .head-block__burger-btn {
-    display: none;
     position: absolute;
     background: #5D71DD;
     width: 35px;
@@ -770,7 +770,7 @@ body {
         display: none;
     }
 
-    .head-block__burger-btn {
+    .burger-block {
         display: block;
     }
 
