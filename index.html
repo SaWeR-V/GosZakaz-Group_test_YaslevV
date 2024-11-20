@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Layout marathon #3</title>
+</head>
+<body>
+    <header class="head-block">
+        <nav class="head-block__navigation">
+            <div class="circles"></div>
+            <ul class="head-block__links">
+                <li class="head-block__link-item">
+                    <a class="head-block__link head-block__link_link-active" href="#">Главная</a>
+                </li>
+                <li class="head-block__link-item">
+                    <a class="head-block__link" href="#">О нас</a>
+                </li>
+                <li class="head-block__link-item">
+                    <a class="head-block__link" href="#">Контакты</a>
+                </li>
+                <li class="head-block__link-item">
+                    <a class="head-block__link" href="#">Поиск</a>
+                </li>
+                <li class="head-block__link-item">
+                    <a class="head-block__link head-block__link_link-phone" href="tel:+798788787">+7 (987) 887-87</a>
+                </li>
+            </ul>
+            <div class="burger-block">
+                <input class="head-block__burger-checkbox" type="checkbox" id="burger_check">
+                <label for="burger_check" class="head-block__burger-toggle" aria-expanded="false" tabindex="0">
+                    <div class="head-block__burger-btn"></div>
+                </label>
+                <ul class="burger__links">
+                    <li class="burger__link-item">
+                        <a class="burger__link burger__link_active" href="#">Главная</a>
+                    </li>
+                    <li class="burger__link-item">
+                        <a class="burger__link" href="#">О нас</a>
+                    </li>
+                    <li class="burger__link-item">
+                        <a class="burger__link" href="#">Контакты</a>
+                    </li>
+                    <li class="burger__link-item">
+                        <a class="burger__link" href="#">Поиск</a>
+                    </li>
+                    <li class="burger__link-item">
+                        <a class="burger__link burger__link_tel" href="tel:+798788787">+7 (987) 887-87</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="head-block__bkg">
+            <picture>
+                <source srcset="/images/header_bg.png" media="(min-width: 1025px)">
+                <source srcset="/images/header_bg_1024.png" media="(min-width: 321px)">
+                <source srcset="/images/header_bg_320.png" media="(max-width: 320px)">
+                <img class="head-block__bkg_image" src="/images/header_bg.png" alt="Имперские штурмовики и персонаж в маске Гая Ричи">
+            </picture>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="main-content__section">
+            <section class="main-content__subsection" tabindex="0">
+                <div class="subsection-meta">
+                    <span class="subsection-meta__cat">Категория 1</span>
+                    <h4 class="subsection-meta__date">13 дек 2020</h4>
+                </div>
+                <h2 class="main-content__section-header">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
+                <article class="main-content__section-article">
+                    Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. 
+                </article>
+            </section>
+            <section class="main-content__subsection-separated">
+                <section class="main-content__subsection subsection_bigger" tabindex="0">
+                    <div class="subsection-meta">
+                        <span class="subsection-meta__cat">Категория 1</span>
+                        <h4 class="subsection-meta__date">13 дек 2020</h4>
+                    </div>
+                    <h2 class="main-content__section-header">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
+                    <article class="main-content__section-article">
+                        Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. 
+                    </article>
+                </section>
+                <section class="main-content__subsection subsection_colorized subsection_smaller" tabindex="0">
+                    <div class="subsection_smaller-top">
+                        <span class="subsection-meta__cat">Категория 1</span>
+                        <h2 class="main-content__section-header smaller_header">ITAM&SAMDay – самая настоящая удача!</h2>
+                    </div>
+                    <h4 class="subsection-meta__date">13 дек 2020</h4>
+                </section>
+            </section>
+            <section class="main-content__subsection-separated">
+                <section class="main-content__subsection subsection_graphics subsection_smaller" tabindex="0">
+                    <img class="subsection-image" src="/images/image.png" alt="Абстрактная картинка на тему 'Космос'">
+                    <div class="subsection_smaller-top">
+                        <span class="subsection-meta__cat">Очень длинная категория 2</span>
+                        <h2 class="main-content__section-header smaller_header">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
+                    </div>
+                    <h4 class="subsection-meta__date">13 дек 2020</h4>
+                </section>
+                <section class="main-content__subsections-double-wrapper">
+                    <section class="main-content__subsection subsection_row" tabindex="0">
+                        <div class="subsection-meta">
+                            <span class="subsection-meta__cat">Категория 1</span>
+                            <h4 class="subsection-meta__date">13 дек 2020</h4>
+                        </div>
+                        <h2 class="main-content__section-header">Управление ИТ-активами – скучная рутина или творческая задача слово слово и еще длинное слово после чего ...</h2>
+                    </section>
+                    <section class="main-content__subsection subsection_row" tabindex="0">
+                        <div class="subsection-meta">
+                            <span class="subsection-meta__cat">Категория 1</span>
+                            <h4 class="subsection-meta__date">13 дек 2020</h4>
+                        </div>
+                        <h2 class="main-content__section-header">ITAM&SAMDay – самая настоящая удача!</h2>
+                    </section>
+                </section>
+            </section>
+            <section class="main-content__subsection-separated">
+                <section class="main-content__subsection subsection_bigger" tabindex="0">
+                    <div class="subsection-meta">
+                        <span class="subsection-meta__cat">Категория 1</span>
+                        <h4 class="subsection-meta__date">13 дек 2020</h4>
+                    </div>
+                    <h2 class="main-content__section-header">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
+                    <article class="main-content__section-article">
+                        Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. 
+                    </article>
+                </section>
+                <section class="main-content__subsection subsection_colorized subsection_smaller" tabindex="0">
+                    <div class="subsection_smaller-top">
+                        <span class="subsection-meta__cat">Категория 1</span>
+                        <h2 class="main-content__section-header smaller_header">ITAM&SAMDay – самая настоящая удача!</h2>
+                    </div>
+                    <h4 class="subsection-meta__date">13 дек 2020</h4>
+                </section>
+            </section>
+            <section class="main-content__subsection-separated">
+                <section class="main-content__subsection subsection_graphics subsection_smaller" tabindex="0">
+                    <img class="subsection-image" src="/images/image2.png" alt="Скалы, вид на звёзды">
+                    <div class="subsection_smaller-top">
+                        <span class="subsection-meta__cat">Очень длинная категория 2</span>
+                        <h2 class="main-content__section-header smaller_header">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
+                    </div>
+                    <h4 class="subsection-meta__date">13 дек 2020</h4>
+                </section>
+                <section class="main-content__subsections-double-wrapper">
+                    <section class="main-content__subsection subsection_row" tabindex="0">
+                        <div class="subsection-meta">
+                            <span class="subsection-meta__cat">Категория 1</span>
+                            <h4 class="subsection-meta__date">13 дек 2020</h4>
+                        </div>
+                        <h2 class="main-content__section-header">Управление ИТ-активами – скучная рутина или творческая задача слово слово и еще длинное слово после чего ...</h2>
+                    </section>
+                    <section class="main-content__subsection subsection_row" tabindex="0">
+                        <div class="subsection-meta">
+                            <span class="subsection-meta__cat">Категория 1</span>
+                            <h4 class="subsection-meta__date">13 дек 2020</h4>
+                        </div>
+                        <h2 class="main-content__section-header">ITAM&SAMDay – самая настоящая удача!</h2>
+                    </section>
+                </section>
+            </section>
+            <ul class="pagination-block">
+                <li class="pagination-block__item">
+                    <a class="pagination-block__link pagination-block__link-active" href="#" aria-current="page">1</a>
+                </li>
+                <li class="pagination-block__item">
+                    <a class="pagination-block__link" href="#">2</a>
+                </li>
+                <li class="pagination-block__item">
+                    <a class="pagination-block__link" href="#">3</a>
+                </li>
+                <li class="pagination-block__item">
+                    <a class="pagination-block__link" href="#">4</a>
+                </li>
+                <li class="pagination-block__item">
+                    <a class="pagination-block__link" href="#">...</a>
+                </li>
+                <li class="pagination-block__item">
+                    <a class="pagination-block__link" href="#">10</a>
+                </li>
+                <li class="pagination-block__item">
+                    <a class="pagination-block__link link_last" href="#">Следующая</a>
+                </li>
+            </ul>
+
+        </section>
+        <button class="subsection__show-more" aria-label="Загрузить еще 6 карточек">Показать еще 6</button>
+
+        <aside class="main-content__aside">
+            <section class="aside-news">
+                <h2 class="aside-header">Популярные новости</h2>
+                <ul class="aside-blocks-wrapper">
+                    <li class="aside-block">
+                        <a href="#" class="aside-block__news-link">ITAM&SAMDay – самая настоящая удача!</a>
+                        <h4 class="aside-block__date">13 дек 2020</h4>
+                    </li>
+                    <li class="aside-block">
+                        <a href="#" class="aside-block__news-link">Секреты лицензирования. Всё, что вы хотели знать про Microsoft, SAP и Oracle, но не знали, у кого спросить ...</a>
+                        <h4 class="aside-block__date">10 дек 2020</h4>
+                    </li>
+                    <li class="aside-block">
+                        <a href="#" class="aside-block__news-link">Менеджмент XXI века. Надо ли готовиться к изменениям или мы давно уже должны были измениться?</a>
+                        <h4 class="aside-block__date">5 дек 2020</h4>
+                    </li>
+                </ul>
+            </section>
+            <section class="subscribe-block">
+                <h2 class="subscribe-block__header">Подписка на рассылку</h2>
+                <form class="subscribe-block__form">
+                    <label class="label-email-input" for="email-input">Введите ваш email для подписки:</label>
+                    <input class="subscribe-block__input" type="email" id="email-input" placeholder="Email@gmail.com">
+                    <button class="subscribe-block__btn" type="submit" aria-label="Подписаться на рассылку">Подписаться</button>
+                </form>
+            </section>
+        </aside>
+    </main>
+    <footer class="footer-container">
+        <div class="circles"></div>
+        <nav>
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">О нас</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Галерея</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Новости</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <h4 class="footer-container__copyright">ООО “Организация” 2020. Все права защищены</h4>
+    </footer>
+    <script src="/script/script.js"></script>
+</body>
+</html>
