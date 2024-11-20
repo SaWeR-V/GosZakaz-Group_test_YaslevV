@@ -104,7 +104,7 @@ body {
     &::before {
         content: '';
         display: block;
-        background-image: url(/svg/phone.svg);
+        background-image: url(../svg/phone.svg);
         width: 14px;
         height: 14px;
     }
@@ -274,7 +274,7 @@ body {
 }
 
 .main-content__subsection:not(.subsection_graphics):hover {
-    cursor: url(/images/cursor_PNG3.png) 5 0, pointer;
+    cursor: url(../images/cursor_PNG3.png) 5 0, pointer;
 }
 
 .main-content__subsection-separated {
@@ -341,7 +341,7 @@ body {
     background: none;
 
     > .subsection_smaller-top > .subsection-meta__cat {
-        cursor: url(/images/cursor_PNG3.png) 5 0, pointer;
+        cursor: url(../images/cursor_PNG3.png) 5 0, pointer;
         background-color: rgba(255, 255, 255, 0.2);
         color: rgba(255, 255, 255, 1);
         max-width: 185px;
@@ -467,11 +467,11 @@ body {
     flex-direction: column;
     gap: 10px;
     position: relative;
-    cursor: url(/images/cursor_PNG3.png) 5 0, pointer;
+    cursor: url(../images/cursor_PNG3.png) 5 0, pointer;
 
 
     &:hover > .aside-block__news-link {
-        cursor: url(/images/cursor_PNG3.png) 5 0, pointer;
+        cursor: url(../images/cursor_PNG3.png) 5 0, pointer;
         color: rgba(93, 113, 221, 1);
     }
 }
@@ -513,7 +513,7 @@ body {
 }
 
 .subscribe-block__input, .subscribe-block__btn, .subsection__show-more  {
-    cursor: url(/images/cursor_PNG3.png) 5 0, pointer;
+    cursor: url(../images/cursor_PNG3.png) 5 0, pointer;
 }
 
 .subscribe-block__header {
@@ -584,7 +584,7 @@ body {
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url(/svg/btn_arrow.svg);
+    background-image: url(../svg/btn_arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -594,7 +594,7 @@ body {
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url(/svg/arrows_refresh.svg);
+    background-image: url(../svg/arrows_refresh.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -624,7 +624,7 @@ body {
 }
 
 .pagination-block__link {
-    cursor: url(/images/cursor_PNG3.png) 5 0, pointer;
+    cursor: url(../images/cursor_PNG3.png) 5 0, pointer;
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
     transition: .3s;
@@ -649,7 +649,7 @@ body {
     &::after {
         content: '';
         display: block;
-        background-image: url(/svg/next_page.svg);
+        background-image: url(../svg/next_page.svg);
         background-size: contain;
         width: 5.4px;
         height: 10px;
